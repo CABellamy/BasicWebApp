@@ -19,7 +19,8 @@ brew install node
 ```
 Install chromedriver
 ```
-brew install chromedriver
+brew install selenium-server-standalone
+selenium-server -port 4444
 ```
 ## Install dependencies
 
