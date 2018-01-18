@@ -1,0 +1,22 @@
+{
+  "name": "BasicWebApp",
+  "version": "1.0.0",
+  "description": "## Simple Web App for Testing Princples",
+  "scripts": {
+    "test": "./node_modules/nightwatch/bin/nightwatch",
+    "start": "./start.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@stash.skybet.net:7999/gra/basicwebapp.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "nightwatch": "^0.9.19"
+  }
+}
